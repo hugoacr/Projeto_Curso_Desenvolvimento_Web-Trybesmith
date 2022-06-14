@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
+import jwt from 'jsonwebtoken';
 import UserService from '../services/usersService';
 
 class UsersController {
@@ -8,8 +9,10 @@ class UsersController {
   public create = async (req: Request, res: Response) => {
     const user = req.body;
 
-    const userCreated = await this.userService.create(user);
-    res.status(StatusCodes.CREATED).json(userCreated);
+    const newUser = await this.userService.create(user);
+
+    const token = jwt.sign({ id: newUser.id }, 'secret', { expiresIn: '1d', algorithm: 'HS256' });
+    res.status(StatusCodes.CREATED).json({ token });
   };
 }
 
