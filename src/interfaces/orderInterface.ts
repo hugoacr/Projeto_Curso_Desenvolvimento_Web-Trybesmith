@@ -1,7 +1,11 @@
-interface Order {
+export interface IOrder {
   id?: number;
   userId: number;
   productsIds: number;
 }
-    
-export default Order;
+
+export interface IGroupOrders {
+  id: number;
+  userId: number;
+  productsIds: number[];
+}

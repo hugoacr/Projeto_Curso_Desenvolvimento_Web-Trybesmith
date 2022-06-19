@@ -1,4 +1,4 @@
-import IOrder from '../interfaces/orderInterface';
+import { IOrder, IGroupOrders } from '../interfaces/orderInterface';
 
 function indiceByOrder(orders: IOrder[]): string[] {
   const listOrder = new Set<string>();
@@ -13,23 +13,15 @@ function indiceByOrder(orders: IOrder[]): string[] {
 function groupByOrder(
   orders: IOrder[],
 ) {
-  const newOrders = [];
+  const newOrders: IGroupOrders[] = [];
   for (let i = 0; i < indiceByOrder(orders).length; i += 1) {
     newOrders.push({
       id: Number(indiceByOrder(orders)[i].split('-')[0]),
       userId: Number(indiceByOrder(orders)[i].split('-')[1]),
-      productsIds: [0],
+      productsIds: [],
     });
   }
   return newOrders;
-}
-
-function fixProductsIds(listOrdersProductsIds: number[]) {
-  let indice = listOrdersProductsIds.indexOf(0);
-  while (indice >= 0) {
-    listOrdersProductsIds.splice(indice, 1);
-    indice = listOrdersProductsIds.indexOf(0);
-  }
 }
 
 function listProductId(
@@ -42,7 +34,6 @@ function listProductId(
       listOrder[o].id === orders[p].id
             && listOrder[o].userId === orders[p].userId
     ) {
-      fixProductsIds(listOrder[o].productsIds);
       listOrder[o].productsIds.push(orders[p].productsIds);
     }
   }    
