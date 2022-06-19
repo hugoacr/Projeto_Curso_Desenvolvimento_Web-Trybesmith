@@ -1,5 +1,5 @@
 import { Pool } from 'mysql2/promise';
-import IOrder from '../interfaces/orderInterface';
+import { IOrder } from '../interfaces/orderInterface';
 
 export default class OrderModel {
   public connection: Pool;
