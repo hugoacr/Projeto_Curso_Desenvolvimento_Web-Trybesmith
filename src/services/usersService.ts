@@ -12,6 +12,11 @@ class UserService {
   public create(user: IUser): Promise<IUser> {
     return this.model.create(user);
   }
+
+  public async getAll(): Promise<IUser[]> {
+    const products = await this.model.getAll();
+    return products;
+  }
 }
 
 export default UserService;
