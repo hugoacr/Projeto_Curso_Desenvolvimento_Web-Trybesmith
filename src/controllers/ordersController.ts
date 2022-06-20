@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
-import groupProductId from '../components/functions';
+import groupProductId from '../components/orderFunctions';
 import OrderService from '../services/ordersService';
 
 class OrdersController {
