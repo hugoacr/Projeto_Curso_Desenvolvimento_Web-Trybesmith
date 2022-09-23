@@ -136,10 +136,7 @@ Este projeto faz parte do curso de FullStack da Trybe. Este projeto teve como ob
   );
   ```
 
-  O arquivo `Trybesmith.sql` contém as _queries_ que criam e populam o banco para isso basta executar o script abaixo na raiz do projeto:
-```bash
-$ restore
-```
+  O arquivo `Trybesmith.sql` contém as _queries_ que criam e populam o banco de dados.
 </details>
 
 # Recursos
