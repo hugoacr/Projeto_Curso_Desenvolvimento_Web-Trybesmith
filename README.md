@@ -169,7 +169,7 @@ Este projeto faz parte do curso de FullStack da Trybe. Este projeto teve como ob
     ```
 </details>
 
-
+##
 ## 2 - Endpoint para o cadastro de produtos
 
 - O endpoint é acessível através do caminho (`/products`);
@@ -240,7 +240,7 @@ Este projeto faz parte do curso de FullStack da Trybe. Este projeto teve como ob
 
 </details>
 
-
+##
 ## 3 - Endpoint para o cadastro de pessoas usuárias
 
 - O endpoint é acessível através do caminho (`/users`);
@@ -349,7 +349,7 @@ Este projeto faz parte do curso de FullStack da Trybe. Este projeto teve como ob
 
 </details>
 
-
+##
 ## 4 - Endpoint para listar todos os pedidos
 
 - O endpoint é acessível através do caminho (`/orders`).
@@ -380,7 +380,7 @@ Este projeto faz parte do curso de FullStack da Trybe. Este projeto teve como ob
 </details>
 
 
-
+##
 ## 5 - Endpoint para o login de pessoas usuárias
 
 - O endpoint é acessível através do caminho (`/login`).
