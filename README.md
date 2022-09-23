@@ -6,7 +6,6 @@ Este projeto faz parte do curso de FullStack da Trybe. Este projeto teve como ob
 
 # 👨‍💻 **Qual o objetivo do projeto?!?!**
 
-<details>
 
   Este projeto cria uma loja de itens medievais, no formato de uma _API_, utilizando _Typescript_.
   
@@ -21,7 +20,6 @@ Este projeto faz parte do curso de FullStack da Trybe. Este projeto teve como ob
 
   - Não haverá front-end neste projeto, apenas as funcionalidades e organização do código;
 
-</details>
 
 
 # Orientações
