@@ -135,6 +135,8 @@ Este projeto faz parte do curso de FullStack da Trybe. Este projeto teve como ob
   O arquivo `Trybesmith.sql` contém as _queries_ que criam e populam o banco de dados.
 </details>
 
+  ---
+
 # Recursos
 
 ## 1 - Endpoint para a listagem de produtos
