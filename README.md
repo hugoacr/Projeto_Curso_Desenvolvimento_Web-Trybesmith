@@ -66,7 +66,7 @@ Este projeto faz parte do curso de FullStack da Trybe. Este projeto teve como ob
 
   - `npm install`
 
-
+</details>
 
 <details>
   <summary><strong>🍪 Informações sobre a API </strong></summary><br />
