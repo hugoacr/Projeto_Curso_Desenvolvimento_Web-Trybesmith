@@ -169,7 +169,6 @@ Este projeto faz parte do curso de FullStack da Trybe. Este projeto teve como ob
     ```
 </details>
 
----
 
 ## 2 - Endpoint para o cadastro de produtos
 
@@ -241,7 +240,6 @@ Este projeto faz parte do curso de FullStack da Trybe. Este projeto teve como ob
 
 </details>
 
----
 
 ## 3 - Endpoint para o cadastro de pessoas usuárias
 
@@ -351,7 +349,6 @@ Este projeto faz parte do curso de FullStack da Trybe. Este projeto teve como ob
 
 </details>
 
----
 
 ## 4 - Endpoint para listar todos os pedidos
 
@@ -382,7 +379,6 @@ Este projeto faz parte do curso de FullStack da Trybe. Este projeto teve como ob
     ```
 </details>
 
----
 
 
 ## 5 - Endpoint para o login de pessoas usuárias
