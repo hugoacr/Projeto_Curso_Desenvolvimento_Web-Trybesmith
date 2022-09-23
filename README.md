@@ -62,7 +62,7 @@ Este projeto faz parte do curso de FullStack da Trybe. Este projeto teve como ob
   - Entre na pasta do repositório que você acabou de clonar:
     - `cd sd-017-project-trybesmith`
 
-  2. Instale as dependências [**Caso existam**]
+  2. Instale as dependências
 
   - `npm install`
 
