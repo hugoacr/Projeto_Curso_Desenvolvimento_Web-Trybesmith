@@ -4,7 +4,7 @@
 Este projeto faz parte do curso de FullStack da Trybe. Este projeto teve como objetivo fixar o aprendizado do bloco de TypeScript. Com ele tive que praticar a sintaxe nova, bem como a tipar variáveis e funções, deixando o código mais compreensível e robusto.
 
 
-# 👨‍💻 **O que deverá ser desenvolvido**
+# 👨‍💻 **Qual o objetivo do projeto?!?!**
 
 <details>
 
