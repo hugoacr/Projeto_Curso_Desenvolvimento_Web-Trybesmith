@@ -14,12 +14,10 @@ Este projeto faz parte do curso de FullStack da Trybe. Este projeto teve como ob
 
   Será disponibilizado alguns _endpoints_ que irão ler e escrever em um banco de dados, utilizando o **MySQL**.
 
-  ---
-
   ⚠️ **Ponto Importante** ⚠️:
 
   - Não haverá front-end neste projeto, apenas as funcionalidades e organização do código;
-
+  ---
 
 
 # Orientações
