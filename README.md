@@ -141,7 +141,6 @@ Este projeto faz parte do curso de FullStack da Trybe. Este projeto teve como ob
 $ restore
 ```
 </details>
-</details>
 
 # Recursos
 
